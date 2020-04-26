@@ -1,0 +1,29 @@
+.Header-top{
+
+    padding: 5px 0;
+}
+
+.bg-theme
+{
+
+    background-color: #316DC3 !important;
+}
+.sm-text-center
+{
+    text-align: center;
+}
+.sm-text-color
+{
+
+    color: white;
+}
+
+div.pos-Inline
+{
+    display: inline;
+}
+div.pos-left
+{
+   position: relative;
+   right: 20em;
+}

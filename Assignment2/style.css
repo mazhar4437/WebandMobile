@@ -1,0 +1,171 @@
+
+
+    body {
+     
+     width:50%;
+    font-family:'Calibri';  
+    margin-left:25%;
+    margin-right:25%;
+    
+}
+
+@media all and (min-width: 100px) and (max-width: 1300px)  {
+    body {
+       
+        width: 800px;
+        font-family:'Calibri';  
+        margin:0 auto;
+       
+    }
+}
+
+div.container{
+
+
+     
+     width: 100%;
+    
+
+}
+
+div.header{
+    text-align: center;
+}
+
+h1.heading{
+text-decoration: underline;
+color: blueviolet;
+
+
+}
+
+div.formSubmitheader
+{
+    margin-top:10em;
+    margin-bottom:10em;
+    text-align: center;
+    font-family: Arial;
+    
+}
+
+.formsubmit{
+   
+    color: blueviolet;
+   
+    
+    }
+
+
+
+div.divform{
+    border:1px solid black;
+    background-color: blueviolet;
+    color:white;
+    padding: 1em;
+    
+  
+    
+  
+}
+
+
+
+
+
+form.formBody .formBodyInp
+{
+ 
+    
+  margin:0.5em;
+  margin-left:3em;
+
+}
+
+.NameInfo
+{
+    margin-left:3em;
+}
+
+span#selectDay{
+
+    margin-left:1.4em;
+   
+}
+
+span#email{
+
+    margin-left:1.3em;
+   
+}
+
+input#phoneNo,span#lastname
+{
+    margin-left:0.25em;
+
+}
+
+span#genderinp,#formBodyAddress{
+
+    margin:0.5em;
+    margin-left:4em;
+}
+
+#address
+{
+
+
+    margin:0.5em;
+    margin-left:9em;
+    margin-top:-3em;
+}
+input#city{
+
+
+    margin-left:6.5em;
+}
+input#pincode,input#country
+{
+    margin-left:3.8em;
+}
+input#state
+{
+    margin-left:5.8em;
+}
+
+span.CheckBoxspan{
+
+    margin-left:0.5em;
+}
+span.CheckBoxOthers{
+
+    margin-left:7.2em;
+}
+
+table.quaificationtable
+{
+   border: 0em;
+   border-collapse: collapse;
+   margin-left:7.2em;
+   margin-top:-2em;
+
+}
+
+.thHeader,div.btnClass
+{
+  text-align: center;
+}
+
+
+.btnfont
+{
+    font-size: large;
+}
+
+
+span#courseslist
+{
+    margin-left:1.8em;
+    
+}
+
+
