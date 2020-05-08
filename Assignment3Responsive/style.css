@@ -1,0 +1,505 @@
+@media all and (min-width:1200px)
+{
+
+    
+     .logodiv{
+
+        margin-left:50px;
+        padding-left : 20px;
+     }
+
+}
+@media all and (min-width:320px) and (max-width:800px)
+{
+
+    
+     .logodiv{
+
+        margin-right:50px;
+
+        
+     }
+
+     .distribution div
+     {
+           padding-bottom: 60px;
+     }
+
+     .ImageGallery .one,.ImageGallery .two,.ImageGallery .three,.ImageGallery .four
+     {
+       padding-bottom: 2em;
+     }
+
+
+}
+/* 
+.ImageGallery
+{
+position: relative;
+width: 100%;
+}
+
+.ImageGallery:hover .image {
+    opacity: 0.3;
+  }
+  
+  .ImageGallery:hover .middle {
+    opacity: 1;
+  }
+   */
+
+image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+ 
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+.bg-theme
+{
+
+    background-color: #316DC3 !important;
+   
+}
+.main
+{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+   
+   
+}
+
+.inline
+{
+    display: inline;
+    padding: 7px; 
+  text-align: center;    
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+ .maindiv
+{
+ 
+    color: white;
+    text-align: center;
+   padding-top: 4px;
+
+
+}
+
+.logodiv{
+
+    padding-top: 2px;
+}
+
+.buttondiv
+{
+    padding-top: 2px;
+}
+
+.Marque span
+{
+
+    color:#00FF00;
+    height: 50px;
+
+   
+}
+
+
+
+
+
+.Navbardiv
+{
+    background-color: #f7f8fa !important;
+ width:100%;
+ 
+   
+    
+}
+
+
+ 
+ 
+  .navbar {
+    width: 100%;
+
+  
+
+  }
+  
+  .navbar li {
+ 
+    padding: 10px 15px 10px 15px;
+  
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    border-radius: 25px;
+    display: inline-block;
+
+ 
+
+  }
+
+  /* ul.dropdown
+  {
+
+  list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    min-width: 180px;
+    white-space: nowrap;
+    background: #fff;
+    right: auto;
+    display: none;
+    top: 71px;
+   
+  } */
+  .navbar li a 
+  {
+    color: black;
+    text-decoration: none;
+
+  }
+
+   
+  .navbar li a:hover
+  {
+    color: white;
+    text-decoration: none;
+  }
+
+ 
+  .navbar li:hover {
+    background-color:#316DC3 !important;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+   font-size: small;
+  }
+  
+  .navbar .active {
+   background-color:#316DC3 !important;
+   border-radius: 25px;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+  }
+
+/* 
+  .navbar ul{
+    padding: 0;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    position: relative;
+
+ 
+}
+.navbar ul li a{
+    display: block;
+   
+    color: black;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+   color:white;
+   
+}
+.navbar ul li ul.dropdown{
+    min-width: 100%;
+    color:#316DC3 !important;
+    background-color:white;
+    display: none;
+    position: absolute;
+    left:0;
+    top:100;
+}
+.navbar ul li:hover ul.dropdown{
+    display: block;
+}
+.navbar ul li ul.dropdown li{
+    display: block;
+} */
+
+ /* ul li a:hover{
+    color:white;
+}
+ul li ul.dropdown{
+    min-width: 20%;
+    background:white;
+    color:white;
+    display: none;
+    position: absolute;
+  
+
+}
+ul li:hover ul.dropdown{
+    display: block;	
+    color:white;
+}
+ul li ul.dropdown li{
+    display: block;
+    color:white;
+}
+    */
+
+    .Marque
+    {
+
+       
+        height: 50px;
+   
+       
+    }
+    .Marque marquee
+    {
+        background-color: #316DC3;
+        color: white;
+        height:30px;
+        margin: 10px 0px 10px 0px;
+        vertical-align: middle;
+    }
+.IntroDiv,.WorkDiv
+{
+    text-align: center;
+   margin:0 auto;
+   background-color: #f7f8fa !important;
+     padding :30px;
+
+
+}
+
+.IntroDiv p.text-left
+{   text-align: justify;
+    margin:0 auto;
+
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.text-themeout-colored {
+    color: #427900 !important;
+}
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+
+.distribution{
+
+    background-color: #316DC3;
+    text-align: center;
+ 
+    min-height: 250px;
+
+
+
+  
+}
+
+.distribution div
+{
+ 
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    color: white;
+ 
+
+}
+
+
+.parentDiv div
+{
+
+    display: inline-block;
+    background-color: white;
+
+    box-shadow: 2px 2px 15px 2px lightgrey;
+
+    max-width:350px; 
+    height: 180px;
+     margin:10px 10px 10px 0px; 
+   
+ color: #316DC3;
+
+   padding : 40px;
+   text-align: center;
+   
+}
+
+  .mission
+{
+   margin:50px 0px 50px 0px;
+   text-align: center;
+  
+ color: #316DC3;
+}  
+.mission span{
+
+    font-size: 18px;
+}
+
+.Events{
+    margin-top: 20px;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    color: #316DC3;
+}
+
+.Events marquee
+{
+    color: black;
+
+}
+
+.mission div
+{
+    background-color: #f7f8fa !important;
+  display: inline-block;
+    padding: 20px 0px 0px 20px;
+ 
+    height: 80px;
+    margin: 10px 10px 10px 0px;
+   max-width: 350px;
+   text-align: left;
+
+}
+span.missionspan
+{
+ 
+ text-align: center;
+
+
+} 
+
+
+
+
+
+.EventsGalllery
+{
+    
+    margin:0 auto;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 0px 80px 0px;
+}
+
+.Homefooter
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+
+
+  
+ 
+}
+  
+
+.scrollToTop {
+    background: white;
+    bottom: 15px;
+    display: none;
+    height: 35px;
+    padding: 2px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    z-index: 99999;
+    
+}
+
+
+
+.Homefooter div
+{
+    background-color: black;
+    color: white;
+    display: inline-block;
+     width: 350px; 
+    height: 200px;
+
+  
+ 
+}
+
+
+.footer{
+
+    padding-top: 40px;
+}
+
+.footerul{
+    display: inline;
+    padding: 3px;
+}
+.footer-bottom
+{
+    background-color: #316DD9 !important;
+    font-size: small;
+   padding-top: 10px;
+    /* text-align: left; */
+}
+
+
+/* .indicator {
+    margin-left: 3px;
+}
+
+ul.dropdown
+{
+    top: 71px;
+    
+list-style: none;
+margin: 0;
+padding: 0;
+
+position: absolute;
+z-index: 99;
+min-width: 180px;
+white-space: nowrap;
+background: #fff;
+} */
